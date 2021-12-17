@@ -1,0 +1,42 @@
+.navbar-brand {
+  .navbar-img {
+    width: 50px;
+  }
+  .navbar-title {
+    margin-left: $spacer;
+    color: $cyan;
+  }
+}
+.navbar {
+  height: 80px;
+  .container {
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+  }
+  &.bg-dark {
+    .navbar-toggler {
+      @extend .btn-outline-light;
+    }
+  }
+  &.bg-light {
+    .navbar-toggler {
+      @extend .btn-outline-dark;
+    }
+  }
+}
+.navbar-collapse {
+  position: fixed;
+  left: 0;
+  top: 80px;
+  width: 100%;
+  height: calc(100% - 80px);
+  z-index: 100;
+  background-color: rgba($black, 0.75);
+  backdrop-filter: blur(0.45rem);
+
+  .navbar-nav {
+    position: relative;
+    z-index: 200;
+  }
+}

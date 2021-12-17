@@ -1,0 +1,41 @@
+.video-player {
+  .media-player-video {
+    background-color: $black;
+  }
+  &.fullscreen {
+    .media-player-controls {
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+    }
+    .embed-responsive {
+      height: 100%;
+    }
+  }
+  .media-player-subtitles {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    top: auto;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background: rgb(0, 0, 0);
+    background: linear-gradient(0deg, rgba(0, 0, 0, 1) 40%, rgba(255, 255, 255, 0) 100%);
+  }
+  .media-player-captions {
+    color: $white;
+    text-shadow: 2px 2px $black;
+  }
+  .media-player-transcript {
+    position: absolute;
+    top: 0;
+    bottom: auto;
+    left: auto;
+    right: 0;
+    width: 50%;
+    height: 100%;
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "trailingComma": "es5",
+  "tslintIntegration": true,
+  "tabWidth": 2,
+  "printWidth": 100
+}

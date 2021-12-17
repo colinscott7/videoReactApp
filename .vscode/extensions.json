@@ -1,0 +1,9 @@
+{
+	// List of extensions which should be recommended for users of this workspace.
+	"recommendations": [
+		"esbenp.prettier-vscode",
+		"riazxrazor.html-to-jsx",
+		"msjsdiag.debugger-for-chrome",
+		"maptz.regionfolder"
+	],
+}

@@ -1,0 +1,15 @@
+.media-player {
+  position: relative;
+  .media-player-controls {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    .btn-group {
+      align-items: center;
+    }
+  }
+  .media-player-time {
+    font-size: 0.9rem;
+  }
+}
